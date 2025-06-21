@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #4B1D1D;
+    padding: 15px 48px;
+    box-shadow: 0 0 10px #000;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    color: #FFD700 ;
+    font-size: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.btn-reset{
+    border: navajowhite;
+    background: #FFD700;
+    color: #4B1D1D;
+    padding: 18px 45px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-reset:hover{
+    cursor: pointer;
+}
+main{
+    width: 100vw;
+    text-align: center;
+    /* margin: auto; */
+}
+.countDetails{
+    /* border: 1px solid; */
+    width: 80vw;
+    margin: 3.5rem auto;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px #bdb9b9;
+}
+.count-info{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.btn-count{
+    width: 80vw;
+    text-align: center;
+    font-size: 121px;
+    border: none;
+    border-radius: 2rem;
+    background-color: #4B1D1D;
+    color: #fff;
+    padding: 10rem 2rem;
+    position: fixed;
+    bottom: 10px;
+    left: 250px;
+    /* margin: auto; */
+}
+.btn-count:hover{
+    cursor: pointer;
+}
