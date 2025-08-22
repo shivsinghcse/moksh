@@ -171,9 +171,9 @@ main {
 }
 
 .btn-count {
-    width: 45vh;
-    height: 45vh;
-    max-width: 45vw;
+    width: 18rem;
+    height: 18rem;
+    /* max-width: 45vw; */
     font-size: 3rem;
     border: 1rem solid #4B1D1D;
     border-radius: 50%;
