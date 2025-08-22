@@ -123,11 +123,14 @@ nav ul {
 }
 
 .menu {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     align-items: center;
+    justify-content: space-between;
     margin-top: 10px;
+    
 }
 
 .btn-reset {
@@ -169,18 +172,19 @@ main {
 
 .btn-count {
     width: 90%;
-    height: 25vh;
-    max-width: 600px;
-    font-size: 64px;
-    border: none;
-    border-radius: 2rem;
-    background-color: #4B1D1D;
-    color: #fff;
+    height: 45vh;
+    max-width: 45vw;
+    font-size: 3rem;
+    border: 1rem solid #4B1D1D;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #4B1D1D;
     padding: 5rem 1rem;
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: 0 0 10px #000;
 }
 
 .btn-count:hover {
