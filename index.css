@@ -171,6 +171,8 @@ main {
 }
 
 .btn-count {
+    -webkit-tap-highlight-color: transparent; /* For iOS Safari / Chrome */
+    outline: none;
     width: 18rem;
     height: 18rem;
     /* max-width: 45vw; */
